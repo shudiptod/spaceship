@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "thumbnail": "/images/door-to-door.svg",
+    "title": "Door to Door Storage",
+    "subtitle": "We pick up, store & deliver",
+    "slug": "door-to-door-storage"
+  },
+  {
+    "id": "2",
+    "thumbnail": "/images/self-access.svg",
+    "title": "Self Access Storage",
+    "subtitle": "24/7 Access Secured Storage Unit",
+    "slug": "self-access-storage"
+  },
+  {
+    "id": "3",
+    "thumbnail": "/images/document-storage.svg",
+    "title": "Document Storage",
+    "subtitle": "Store offsite and manage online",
+    "slug": "document-storage"
+  },
+  {
+    "id": "4",
+    "thumbnail": "/images/marketing-merchandise.svg",
+    "title": "Marketing Merchandise",
+    "subtitle": "Send swags to us and click for returns",
+    "slug": "marketing-merchandise"
+  },
+  {
+    "id": "5",
+    "thumbnail": "/images/retail-_-ecommerce.svg",
+    "title": "Retail and e-Commerce",
+    "subtitle": "We'll receive, store, pick, pack and ship",
+    "slug": "retail-and-e-commerce"
+  },
+  {
+    "id": "6",
+    "thumbnail": "/images/spacelabs.svg",
+    "title": "Co-Working and Co-Warehousing",
+    "subtitle": "Work, store, operate and ship all in one place",
+    "slug": "co-working-and-co-warehousing"
+  },
+  {
+    "id": "7",
+    "thumbnail": "/images/general-warehousing.svg",
+    "title": "Office With Storage",
+    "subtitle": "Office space with storage space",
+    "slug": "office-with-storage"
+  }
+]
