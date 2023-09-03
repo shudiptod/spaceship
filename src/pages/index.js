@@ -1,25 +1,21 @@
 import Home from "@/components/pages/Home/Home";
 import { getServices } from "@/components/pages/Home/api/getServices";
-import { QueryClient, dehydrate } from "react-query";
 
-export async function getServerSideProps() {
-  const queryClient = new QueryClient();
-
-  await queryClient.prefetchQuery(["services"], getServices);
-
+export const getServerSideProps = async () => {
+  const services = await getServices();
   return {
     props: {
-      dehydratedState: dehydrate(queryClient),
+      services,
     },
   };
-}
+};
 
-export default function index() {
+export default function index({ services }) {
   return (
     <main
       className={`flex min-h-screen overflow-y-auto  flex-col items-center justify-between p-24 `}
     >
-      <Home />
+      <Home services={services} />
     </main>
   );
 }
