@@ -17,7 +17,7 @@ const ServiceCard = ({ item }) => {
       </h1>
       <p className="text-sm text-gray-800 ">{item.subtitle}</p>
       <Link
-        href={item.slug}
+        href={"#" + item.slug}
         className="flex items-center mt-auto text-sm font-semibold text-sky-500 hover:text-sky-800"
       >
         Learn More <BsArrowRightShort className="text-2xl" />
