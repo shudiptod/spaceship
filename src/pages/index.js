@@ -1,5 +1,6 @@
 import Home from "@/components/pages/Home/Home";
 import { getServices } from "@/components/pages/Home/api/getServices";
+import Head from "next/head";
 
 export const getServerSideProps = async () => {
   const services = await getServices();
@@ -12,8 +13,13 @@ export const getServerSideProps = async () => {
 
 export default function index({ services }) {
   return (
-    <main>
-      <Home services={services} />
-    </main>
+    <>
+      <Head>
+        <title>Spaceship</title>
+      </Head>
+      <main>
+        <Home services={services} />
+      </main>
+    </>
   );
 }
