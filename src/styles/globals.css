@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
@@ -20,21 +23,6 @@ html {
 /* Set a baseline font size and style */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+
   background: white;
-}
-
-/* Responsive design settings */
-/* For small screens, adjust font size and padding */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  /* Add specific styles for smaller screens here */
-}
-
-/* For larger screens, add specific styles */
-@media (min-width: 1200px) {
-  /* Add specific styles for larger screens here */
 }

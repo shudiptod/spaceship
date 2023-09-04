@@ -12,9 +12,7 @@ export const getServerSideProps = async () => {
 
 export default function index({ services }) {
   return (
-    <main
-      className={`flex min-h-screen overflow-y-auto  flex-col items-center justify-between p-24 `}
-    >
+    <main>
       <Home services={services} />
     </main>
   );
